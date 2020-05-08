@@ -1,5 +1,6 @@
 import React from "react";
-import BookResult from "../components/BookResult";
+import BookResult from "../ResultsContainer/BookResult";
+import "./bookresult.css";
 
 function ResultsContainer(props) {
     if(props.path === "/") {

@@ -1,5 +1,6 @@
 import React from "react";
-import API from "../utils/API";
+import API from "../../utils/API";
+import "./bookresult.css"
 import {BrowserRouter as Router} from "react-router-dom";
 
 class BookResult extends React.Component {
